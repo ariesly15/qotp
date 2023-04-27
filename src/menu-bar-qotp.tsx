@@ -12,7 +12,7 @@ import { ExtraList } from "./data";
 
 export default function Command() {
   return (
-    <MenuBarExtra icon="otp.png" tooltip="点击查看OTP">
+    <MenuBarExtra icon="otp.png" tooltip="Click to view OTP">
       {ExtraList.map((item, index) => (
         <MenuBarExtra.Item
           key={index}
